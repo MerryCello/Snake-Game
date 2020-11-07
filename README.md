@@ -1,5 +1,5 @@
 # Snake Game
-Based off of the classic [snake][wiki-snake] game, this project started to gain more knowledge about [Test-driven Development (TDD)][wiki-TDD] and was finished after 1 <sup>1</sup>/<sub>2</sub> weeks (planned on 2). The hands-on experience was a good demonstration of the benefits of TDD. The automated testing was done with the help of [Google's C++ test framework][wiki-google-tests]. The framework helped quickly discover what the issues were with the code while in development and after.
+Based off the classic [snake][wiki-snake] game, this project started to gain more knowledge about [Test-driven Development (TDD)][wiki-TDD] and was finished after 1 <sup>1</sup>/<sub>2</sub> weeks (planned on 2). The hands-on experience was a good demonstration of the benefits of TDD. The automated testing was done with the help of [Google's C++ test framework][wiki-google-tests], which helped quickly discover what the issues were with the code while in development and after.
 ## Looks
 |![][start]|![][long]|
 |:--------:|:--------:|
@@ -10,7 +10,7 @@ Requirements:
 - [C++ 14][MinGW-download-page] (32-bit) or later compiler
 - [Open GL][freeglut-3.0.0] (freeglut) libraries
 
-Unfortunately, Google tests is on a x64bit C++ compiler and is not compatible with the project anymore. Once I incorporated the graphics (OpenGL), I had to use a x32bit compiler until I figured out how to get graphic framework to compile on x64bit. There's an open issue for it on [StackOverflow][stackoverflow-question]. Once I get back into the project, I hope to be able to have it all run on x64bit, so the automated tests will work once again.
+Unfortunately, Google Tests is on a x64bit C++ compiler and is not compatible with the project anymore. Once I incorporated the graphics (OpenGL), I had to use a x32bit compiler until I figured out how to get graphic framework to compile on x64bit. There's an open issue for it on [StackOverflow][stackoverflow-question]. Once I get back into the project, I hope to be able to have it all run on x64bit, so the automated tests will work once again.
 
 [wiki-google-tests]: https://developer.ibm.com/technologies/systems/articles/au-googletestingframework/
 [wiki-TDD]: https://www.agilealliance.org/glossary/tdd/
