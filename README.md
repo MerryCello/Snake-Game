@@ -10,7 +10,7 @@ Requirements:
 - [C++ 14][MinGW-download-page] (32-bit) or later compiler
 - [Open GL][freeglut-3.0.0] (freeglut) libraries
 
-Unfortunately, Google tests is on a x64bit C++ compiler and is not compatible with the project. Once I incorporated the graphics, I had to use a x32bit compiler until I figured out how to get OpenGL to work on x64bit. There's a open issue for it on [StackOverflow][stackoverflow-question]. Once I get back to it, I hope to be able to have it all run on x64bit so that the automated tests will work once again.
+Unfortunately, Google tests is on a x64bit C++ compiler and is not compatible with the project anymore. Once I incorporated the graphics (OpenGL), I had to use a x32bit compiler until I figured out how to get graphic framework to compile on x64bit. There's an open issue for it on [StackOverflow][stackoverflow-question]. Once I get back into the project, I hope to be able to have it all run on x64bit, so the automated tests will work once again.
 
 [wiki-google-tests]: https://developer.ibm.com/technologies/systems/articles/au-googletestingframework/
 [wiki-TDD]: https://www.agilealliance.org/glossary/tdd/
